@@ -1,6 +1,6 @@
 package lesson160329;
 
-public class Hello {
+public class Task01 {
 
 	public static void main(String[] args) {
 		
