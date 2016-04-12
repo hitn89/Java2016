@@ -1,11 +1,11 @@
-package lesson160411;
+package classwork160411.examtasks;
 
 public class Question04 {
 
 	/*
 	 * 
 	 * A. 10, 14, B. 10, 14 C. 10, D. ERROR in line E. ERROR in line F.
-	 * infinitive loop бесконечный цикл
+	 * infinitive loop пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ
 	 * 
 	 */
 	
