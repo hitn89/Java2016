@@ -5,7 +5,7 @@ public class test03 {
 	public static void main(String[] args) {
 
 		String str = "xooxxxoxx";
-		if (str.length() < 2) {
+		if (str.length() < 3) {
 			System.out.println("0");
 		} else {
 			String result = "";

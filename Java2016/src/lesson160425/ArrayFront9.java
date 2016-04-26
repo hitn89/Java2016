@@ -6,7 +6,10 @@ public class ArrayFront9 {
 
 		int[] nums = { 1, 2, 9, 3, 4 };
 		int count = 0;
-		for (int i = 0; i < 4; i++) {
+		int end = nums.length;
+		if (end > 4)
+			end = 4;
+		for (int i = 0; i < end; i++) {
 			if (nums[i] == 9) {
 				count++;
 			}
