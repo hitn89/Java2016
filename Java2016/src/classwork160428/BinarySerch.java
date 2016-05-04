@@ -14,7 +14,7 @@ public class BinarySerch {
 		int result = binarySerch(a, 101);
 
 		System.out.println(result);
-		System.out.println(a[result]);
+		// System.out.println(a[result]);
 
 	}
 
