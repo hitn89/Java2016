@@ -1,26 +1,36 @@
-package classwork160505;
+package classwork160510;
 
-public class Animal {
+public class Животное {
 
 	private String name; // поле
 	private String kind;
 	private boolean isHungry = true;
 
-	public Animal(String kind, String name) {
-		this.kind = kind;
-		this.name = name;
+	{ // блок инициализации
+		System.out.println("Создано очередное животное");
 	}
 
-	public Animal(boolean h, String n, String k) {
+	public Животное(boolean h, String n, String k) {
 		kind = k;
 		name = n;
 		isHungry = h;
 	}
 
-	public Animal() {
-		kind = "микроб";
+	public Животное(String kind) {
+		this.kind = kind;
 		name = "";
-		isHungry = true;
+		isHungry = false;
+	}
+
+	public Животное(String kind, String name) {
+		this(true, name, kind);
+	}
+
+	public Животное() {
+		this(true, "Вася", "микроб");
+		// kind = "микроб";
+		// name = "";
+		// isHungry = true;
 	}
 
 	public void feed(String food) { // метод экземпляра
