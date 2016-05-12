@@ -1,0 +1,27 @@
+package classwork160512;
+
+public class CycleByRecursion {
+
+	public static void main(String[] args) {
+
+		print(10);
+
+		print2(0, 10);
+
+	}
+
+	private static void print2(int i, int n) {
+		if (i < n) {
+			System.out.println(i);
+			print2(i + 1, n);
+		}
+	}
+
+	private static void print(int i) {
+		if (i > 0) {
+			print(i - 1);
+			System.out.println(i - 1);
+		}
+	}
+
+}
